@@ -4,6 +4,7 @@ public class Main
 	public static void main(String[] args) {
 	String name;
 	char answer;
+	int date = 2025;
 	int year;
 	Scanner scanner = new Scanner (System.in);
 	    
@@ -36,7 +37,7 @@ public class Main
 		    System.out.println("Unknown / out of range");
 		}
 		if (year >= 1928 && year <=2025){
-		    System.out.println("Currently you are " + (2025 - year) + " year/s old");  
+		    System.out.println("Currently you are " + (date - year) + " year/s old");  
 		}
 		System.out.println("-------------------------------");
 		System.out.print("Do you want to continue [y/n]? "); 
